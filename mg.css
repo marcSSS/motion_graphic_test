@@ -1,0 +1,184 @@
+body {
+  background-color: #333;
+}
+/*cross 測試*/
+.cross1 {
+  border: solid 2px;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  background-color: #fcdf1e;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+.cross1:hover {
+  background-color: #fc5d1e;
+}
+.cross1:hover .line1, .cross1:hover .line2, .cross1:hover .line3 {
+  width: 170px;
+}
+.cross1:hover .line1 {
+  transform: translateX(-50%) translateY(-50%) rotate(45deg);
+}
+.cross1:hover .line2 {
+  transform: translateX(-50%) translateY(-50%) rotate(-45deg);
+}
+.cross1:hover .line3 {
+  transform: translateX(-50%) translateY(-50%) rotate(0deg);
+}
+.cross1 .line1, .cross1 .line2, .cross1 .line3 {
+  width: 150px;
+  height: 10px;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  transition-duration: 0.5s;
+}
+.cross1 .line1 {
+  transform: translateX(-50%) translateY(200%);
+}
+.cross1 .line2 {
+  transform: translateX(-50%) translateY(-200%);
+}
+
+.cross1 .line3 {
+  transform: translateX(-50%);
+}
+/*cross 測試*/
+
+/*IOH 測試*/
+.IOH {
+  /*overflow: hidden;*/
+  border: solid 2px;
+  width: 400px;
+  height: 400px;
+  position: relative;
+  background-color: black;
+  transition-duration: 1s;
+  cursor: pointer;
+}
+
+.IOH .cap {
+  opacity: 0;
+  position: absolute;
+  display: inline-block;
+  font-family: Helvetica;
+  font-size: 24px;
+  font-weight: bold;
+  top: 60%;
+  left: 19%;
+}
+
+.IOH:active .cap {
+  transition-duration: 0.5s;
+  transition-delay: 0.2s;
+  opacity: 1;
+  position: absolute;
+  display: inline-block;
+  font-family: Helvetica;
+  font-size: 24px;
+  font-weight: bold;
+  top: 47.5%;
+  left: 19%;
+}
+
+.IOH:hover {
+  background-color: lightgray;
+}
+
+.IOH:hover .I_1, .IOH:hover .O_1, .IOH:hover .H_1, .IOH:hover .H_2, .IOH:hover .H_3 {
+  width: 170px;
+}
+
+.IOH .I_1, .IOH .O_1, .IOH .H_1, .IOH .H_2, .IOH .H_3, .IOH .V {
+  width: 150px;
+  height: 10px;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  transition-duration: 0.5s;
+}
+
+.IOH:hover .I_1 {
+  top: 50%;
+  left: 21%;
+  width: 17.5px;
+  height: 100px;
+  background-color: red;
+  z-index: 1000;
+}
+
+.IOH:hover .O_1 {
+  box-sizing: border-box;
+  border: red solid 17.5px;
+  border-radius: 100%;
+  top: 50%;
+  left: 41%;
+  width: 100px;
+  height: 100px;
+  background-color: transparent;
+  z-index: 1000;
+}
+
+.IOH:hover .H_1 {
+  top: 50%;
+  left: 61%;
+  width: 17.5px;
+  height: 100px;
+  background-color: red;
+  z-index: 1000;
+}
+
+.IOH:hover .H_2 {
+  top: 50%;
+  left: 69%;
+  width: 50px;
+  height: 17.5px;
+  background-color: red;
+  z-index: 1000;
+}
+
+.IOH:hover .H_3 {
+  top: 50%;
+  left: 77%;
+  width: 17.5px;
+  height: 100px;
+  background-color: red;
+  z-index: 1000;
+}
+
+.IOH:active .I_1 {
+  top: 35%;
+  left: 20%;
+}
+
+.IOH:active .O_1 {
+  top: 35%;
+  left: 41%;
+}
+
+.IOH:active .H_1 {
+  top: 35%;
+  left: 61%;
+}
+
+.IOH:active .H_2 {
+  top: 35%;
+  left: 69%;
+}
+
+.IOH:active .H_3 {
+  top: 35%;
+  left: 77%;
+}
+
+/*.IOH .V {
+  z-index: 10000;
+}*/
+
+/*IOH 測試*/
