@@ -177,6 +177,143 @@ body {
   left: 77%;
 }
 
+.box, .block {
+  border: solid 2px;
+}
+
+.box {
+  width: 850px;
+  height: 300px;
+  position: relative;
+  display: inline;
+}
+
+.block {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  bottom: 0px;
+}
+
+.block1 {
+  left: 120px;
+  animation: ani1 2s infinite;
+}
+
+.block2 {
+  left: 300px;
+  animation: ani2 2s infinite;
+}
+
+.block3 {
+  left: 450px;
+  animation: ani3 2s infinite;
+}
+
+.block4 {
+  left: 600px;
+  animation: ani4 2s infinite;
+}
+
+.block5 {
+  left: 750px;
+  animation: ani5 2s infinite;
+}
+
+@keyframes ani1 {
+  0% {
+    bottom: 100px;
+  }
+  50% {
+    bottom: 0px;
+    background-color: red;
+  }
+  100% {
+    bottom: 100px;
+  }
+}
+@keyframes ani2 {
+  0% {
+    bottom: 100px;
+  }
+  30% {
+    background-color: white;
+    transform: rotate(0deg);
+  }
+  50% {
+    bottom: 0px;
+    background-color: blue;
+    transform: rotate(180deg);
+  }
+  70% {
+    background-color: white;
+    transform: rotate(0deg);
+  }
+  100% {
+    bottom: 100px;
+  }
+}
+@keyframes ani3 {
+  0% {
+    bottom: 100px;
+    transform: scale(1);
+  }
+  30% {
+    background-color: white;
+  }
+  50% {
+    bottom: 0px;
+    transform: scale(0.5);
+    background-color: yellow;
+  }
+  70% {
+    background-color: white;
+  }
+  100% {
+    bottom: 100px;
+    transform: scale(1);
+  }
+}
+@keyframes ani4 {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  20% {
+    transform: translate(50px, 0px);
+    background-color: green;
+  }
+  40% {
+    transform: translate(50px, -50px);
+    background-color: white;
+  }
+  60% {
+    transform: translate(0px, -50px);
+    background-color: green;
+  }
+  80% {
+    transform: translate(0px, 0px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+@keyframes ani5 {
+  0% {
+    transform: skewX(20deg);
+    transform-origin: 0% 100%;
+    background-color: orange;
+  }
+  50% {
+    transform: skewX(-20deg);
+    transform-origin: 0% 100%;
+  }
+  100% {
+    transform: skewX(20deg);
+    transform-origin: 0% 100%;
+  }
+}
+
+
 /*.IOH .V {
   z-index: 10000;
 }*/
