@@ -1,12 +1,98 @@
-body {
+body, html {
   background-color: #333;
+  margin: 0;
+  padding: 0;
 }
+
+svg {
+  margin-top: -10px;
+  border-top: 0px;
+  padding-top: 0px;
+  width: 50px;
+  border: none;
+}
+
+#pic3 {
+  stroke: #136F63;
+  stroke-width: 10px;
+  fill: none;
+}
+#pic3 circle {
+  fill: #136F63;
+}
+
+.nothing {
+  height: 105px;
+  width: auto;
+}
+
+.nav {
+  background-color: rgba(255, 255, 255, 0.85);
+  overflow-y: auto;
+  /* fixed 使 nav 固定在最上方*/
+  position: fixed;
+  left: 0;
+  top: 0;
+  text-align: center;
+  width: 100%;
+  z-index: 10000;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  box-sizing: border-box;
+  color: #14213D;
+  display: inline-block;
+  font-family: 'Reem Kufi', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0px 20px;
+  text-transform: uppercase;
+}
+
+.nav li:hover {
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.nav li:active {
+  color: #F34213;
+}
+
+#logo {
+  color: #136F63;
+  font-family: 'Nunito', cursive;
+  font-size: 32px;
+  font-weight: 700;
+  padding: 0px 50px;
+  text-transform: none;
+  margin-bottom: -10px;
+  border-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.trial {
+  border: solid 2px black;
+  margin: 0 auto;
+  padding: 10px 10px;
+  height: 400px;
+  background-size: cover;
+  position: relative;
+  display: block;
+  left: auto;
+  top: auto;
+}
+
 /*cross 測試*/
 .cross1 {
   border: solid 2px;
   width: 200px;
   height: 200px;
   position: relative;
+  justify-content: center;
   background-color: #fcdf1e;
   transition-duration: 0.5s;
   cursor: pointer;
@@ -185,7 +271,7 @@ body {
   width: 850px;
   height: 300px;
   position: relative;
-  display: inline;
+  background-color: gray;
 }
 
 .block {
