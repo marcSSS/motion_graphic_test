@@ -53,15 +53,6 @@ li {
   text-transform: uppercase;
 }
 
-.nav li:hover {
-  letter-spacing: 1px;
-  cursor: pointer;
-}
-
-.nav li:active {
-  color: #F34213;
-}
-
 #logo {
   color: #136F63;
   font-family: 'Nunito', cursive;
@@ -72,6 +63,15 @@ li {
   margin-bottom: -10px;
   border-bottom: 0px;
   padding-bottom: 0px;
+}
+
+.nav li:hover {
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.nav li:active {
+  color: #F34213;
 }
 
 body{
