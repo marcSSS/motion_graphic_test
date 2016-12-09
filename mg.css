@@ -53,11 +53,12 @@ li {
   text-transform: uppercase;
 }
 
-.logo {
+#logo {
   color: #136F63;
   font-family: 'Nunito', cursive;
   font-size: 32px;
   font-weight: 700;
+  text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
   padding: 0px 50px;
   text-transform: none;
   margin-bottom: -10px;
