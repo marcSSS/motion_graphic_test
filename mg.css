@@ -406,6 +406,7 @@ border-top:7px solid white;
   background-color: black;
   transition-duration: 1s;
   cursor: pointer;
+  color: black;
 }
 
 .IOH .cap {
