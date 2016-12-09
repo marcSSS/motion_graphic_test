@@ -347,13 +347,9 @@ border-top:7px solid white;
   font-family: Helvetica, sans-serif, 微軟正黑體;
 }
 
-.type {
-
-}
-
 /*cross 測試*/
 .cross1 {
-  border: solid 2px;
+  border: solid 2px black;
   width: 200px;
   height: 200px;
   position: relative;
@@ -403,7 +399,7 @@ border-top:7px solid white;
 /*IOH 測試*/
 .IOH {
   /*overflow: hidden;*/
-  border: solid 2px;
+  border: solid 2px black;
   width: 400px;
   height: 400px;
   position: relative;
@@ -529,7 +525,7 @@ border-top:7px solid white;
 }
 
 .box, .block {
-  border: solid 2px;
+  border: solid 2px black;
 }
 
 .box {
@@ -657,10 +653,12 @@ border-top:7px solid white;
   50% {
     transform: skewX(-20deg);
     transform-origin: 0% 100%;
+    background-color: white;
   }
   100% {
     transform: skewX(20deg);
     transform-origin: 0% 100%;
+    background-color: orange;
   }
 }
 
