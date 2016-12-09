@@ -357,13 +357,14 @@ body{
   height: 200px;
   position: relative;
   justify-content: center;
-  background-color: #fcdf1e;
+  background-color: #EF2D56;
   transition-duration: 0.5s;
+  transition-timing-function: ease-out;
   cursor: pointer;
 }
 
 .cross1:hover {
-  background-color: #fc5d1e;
+  background-color: #75F4F4;
 }
 .cross1:hover .line1, .cross1:hover .line2, .cross1:hover .line3 {
   width: 170px;
@@ -380,7 +381,7 @@ body{
 .cross1 .line1, .cross1 .line2, .cross1 .line3 {
   width: 150px;
   height: 10px;
-  background-color: white;
+  background-color: rgba(0, 0, 0, 0.8);
   position: absolute;
   top: 50%;
   left: 50%;
