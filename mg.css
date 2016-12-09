@@ -1,5 +1,4 @@
 body, html {
-  background-color: white;
   margin: 0;
   padding: 0;
 }
@@ -231,7 +230,7 @@ body{
    width: 70px;
    height:30px;
   border-radius: 121px 121px 0 0;
-border-top:7px solid white;
+  border-top:7px solid white;
   margin:12px 0px;
   transform:rotate(-35deg)
 }
@@ -335,7 +334,7 @@ border-top:7px solid white;
 
 .trial {
   color: white;
-  border: solid 2px black;
+  border: solid 2px transparent;
   margin: 0 auto;
   padding: 10px 10px;
   height: auto;
@@ -345,6 +344,10 @@ border-top:7px solid white;
   left: auto;
   top: auto;
   font-family: Helvetica, sans-serif, 微軟正黑體;
+}
+
+.hl {
+  color: transparent;
 }
 
 /*cross 測試*/
