@@ -334,7 +334,8 @@ border-top:7px solid white;
 }
 
 .trial {
-  border: solid 2px transparent;
+  color: white;
+  border: solid 2px black;
   margin: 0 auto;
   padding: 10px 10px;
   height: auto;
@@ -343,12 +344,11 @@ border-top:7px solid white;
   display: block;
   left: auto;
   top: auto;
-  color: white;
+  font-family: Helvetica, sans-serif, 微軟正黑體;
 }
 
 .type {
-  color: white;
-  font-family: Helvetica, sans-serif, 微軟正黑體;
+
 }
 
 /*cross 測試*/
