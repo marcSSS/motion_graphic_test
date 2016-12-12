@@ -6,23 +6,7 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito|Reem+Kufi" rel="stylesheet">
   </head>
   <body>
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          appId      : '1203639869674220',
-          xfbml      : true,
-          version    : 'v2.8'
-        });
-      };
 
-      (function(d, s, id){
-         var js, fjs = d.getElementsByTagName(s)[0];
-         if (d.getElementById(id)) {return;}
-         js = d.createElement(s); js.id = id;
-         js.src = "//connect.facebook.net/en_US/sdk.js";
-         fjs.parentNode.insertBefore(js, fjs);
-       }(document, 'script', 'facebook-jssdk'));
-    </script>
     <div class="nothing"></div>
 
     <div class="nav">
@@ -79,14 +63,41 @@
     </div>
 <!-- background -->
     <div class="trial">
-      <div
-        class="fb-like"
-        data-share="true"
-        data-width="450"
-        data-show-faces="true">
+      <div class='skillset'>
+          <div class='skill-html'>
+            <h1>Digital Marketing</h1>
+            <p class='description'>
+              <div class='projects-button'>Recent Projects</div>
+              <ul class='projects'>
+                <li>Google Analytics</li>
+                <li>SEO</li>
+              </ul>
+            </p>
+          </div>
+
+          <div class='skill-js'>
+            <h1>Data Visualization</h1>
+            <p class='description'>
+              <div class='projects-button'>Recent Projects</div>
+              <ul class='projects'>
+                <li>Google DataStudio</li>
+                <li>d3.js</li>
+              </ul>
+            </p>
+          </div>
+      </div>
+
+      <div class='skill-jquery'>
+        <h1>Idea</h1>
+        <p class='description'>
+          <div class='projects-button'>Recent Projects</div>
+          <ul class='projects'>
+            <li>Coming soon...</li>
+          </ul>
+        </p>
       </div>
     </div>
-    
+
     <div class="trial">
       <div class="cross1">
         <div class="line1"></div>
@@ -149,7 +160,7 @@
 
 
     <link rel="stylesheet" href="mg.css">
-    <script src="jquery-3.1.1.min.js"></script>
-    <script src="js/mg.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="mg.js"></script>
   </body>
 </html>
