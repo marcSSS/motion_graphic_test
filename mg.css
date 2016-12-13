@@ -58,7 +58,7 @@ li {
   font-family: 'Nunito', cursive;
   font-size: 32px;
   font-weight: 700;
-  text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
   padding: 0px 50px;
   text-transform: none;
   margin-bottom: -10px;
@@ -345,6 +345,7 @@ body{
   left: auto;
   top: auto;
   font-family: Helvetica, sans-serif, 微軟正黑體;
+  font-weight: 500;
 }
 
 .hl {
@@ -391,6 +392,9 @@ body{
   color: black;
   cursor: pointer;
   border-radius: 5px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: bold;
 }
 
 ul {
@@ -408,58 +412,8 @@ ul {
   border-radius: 5px;
 }
 
-
 /*三色測試*/
 
-/*cross 測試*/
-.cross1 {
-  border: solid 2px black;
-  width: 200px;
-  height: 200px;
-  position: relative;
-  justify-content: center;
-  background-color: #EF2D56;
-  transition-duration: 0.5s;
-  transition-timing-function: ease-out;
-  cursor: pointer;
-}
-
-.cross1:hover {
-  background-color: #75F4F4;
-}
-.cross1:hover .line1, .cross1:hover .line2, .cross1:hover .line3 {
-  width: 170px;
-}
-.cross1:hover .line1 {
-  transform: translateX(-50%) translateY(-50%) rotate(45deg);
-}
-.cross1:hover .line2 {
-  transform: translateX(-50%) translateY(-50%) rotate(-45deg);
-}
-.cross1:hover .line3 {
-  transform: translateX(-50%) translateY(-50%) rotate(0deg);
-}
-.cross1 .line1, .cross1 .line2, .cross1 .line3 {
-  width: 150px;
-  height: 10px;
-  background-color: rgba(0, 0, 0, 0.8);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
-  transition-duration: 0.5s;
-}
-.cross1 .line1 {
-  transform: translateX(-50%) translateY(200%);
-}
-.cross1 .line2 {
-  transform: translateX(-50%) translateY(-200%);
-}
-
-.cross1 .line3 {
-  transform: translateX(-50%);
-}
-/*cross 測試*/
 
 /*IOH 測試*/
 .IOH {
